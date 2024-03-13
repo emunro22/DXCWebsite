@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 10px;
+  order: 1; /* Set the order of the image to 1 (will be displayed second) */
+}
+
+.content {
+  flex: 1;
+  order: 2; /* Set the order of the content to 2 (will be displayed last) */
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 18px;
+}
